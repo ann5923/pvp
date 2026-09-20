@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "pvphelper",
+	"version": "${version}",
+	"name": "PvP Helper",
+	"description": "Wypelniony hitbox graczy + GUI pod klawiszem \\ + jedno auto-uderzenie gdy miecz jest naladowany.",
+	"authors": ["you"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["pl.pvphelper.PvpHelperClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
